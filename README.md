@@ -1,4 +1,5 @@
-# First mini project - Web Clock
+# 1.Web Clock
 ![web clock](1_digital_clock/web_clock.gif)
 
-# First mini project - Counter
+# 2.Counter
+![web clock](2_counter/counter.gif)
