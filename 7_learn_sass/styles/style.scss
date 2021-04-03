@@ -5,11 +5,12 @@
 // naming start with _
 // import the file to the style.scss
 // define a varibale with $ sign
-
+// @extend inherite from parent stlye
 @import './variables';
 @import './header';
 
-.contact button{
+.contact{
+    @include flexCenter(row);
     background-color: $primaryBtn;
 }
 

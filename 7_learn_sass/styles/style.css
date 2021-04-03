@@ -1,11 +1,20 @@
 header {
-  background-color: lightblue;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  height: 100vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: lightblue;
+  height: 100vh;
 }
 
 header button {
@@ -17,10 +26,24 @@ header button:hover {
 }
 
 header button::after {
-  content: "Hahahahah";
+  content: "Hah";
 }
 
-.contact button {
+.contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   background-color: #f8e808;
 }
 /*# sourceMappingURL=style.css.map */

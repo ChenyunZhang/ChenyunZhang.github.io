@@ -1,7 +1,15 @@
-header {
-    background-color: lightblue;
+@mixin flexCenter($direction) {
     display: flex;
+    height: 100vh;
+    align-items: center;
     justify-content: center;
+    flex-direction: $direction;
+}
+
+header {
+    @include flexCenter(column);
+    background-color: lightblue;
+    height:100vh;
     // nest inside of the tag
     button {
         background-color: $textColor;
@@ -9,7 +17,7 @@ header {
             background-color: $primaryBtn;
         }
         &::after{
-            content: "Hahahahah"
+            content: "Hah"
         }
     }
 }
