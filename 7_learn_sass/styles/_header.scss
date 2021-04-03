@@ -1,0 +1,15 @@
+header {
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    // nest inside of the tag
+    button {
+        background-color: $textColor;
+        &:hover{
+            background-color: $primaryBtn;
+        }
+        &::after{
+            content: "Hahahahah"
+        }
+    }
+}

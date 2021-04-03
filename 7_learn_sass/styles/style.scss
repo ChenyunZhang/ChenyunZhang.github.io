@@ -1,17 +1,15 @@
 // create scss file, click on watch sass button
 // it will create css file
 // connect css file with html
-
+// organize file by store it in seperate file
+// naming start with _
+// import the file to the style.scss
 // define a varibale with $ sign
-$primaryBtn : rgb(117, 122, 194);
 
-header {
-    background-color: lightblue;
-    display: flex;
-    justify-content: center;
-}
+@import './variables';
+@import './header';
 
-header button,.contact button{
+.contact button{
     background-color: $primaryBtn;
 }
 
