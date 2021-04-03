@@ -1,0 +1,17 @@
+// create scss file, click on watch sass button
+// it will create css file
+// connect css file with html
+
+// define a varibale with $ sign
+$primaryBtn : rgb(117, 122, 194);
+
+header {
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+}
+
+header button,.contact button{
+    background-color: $primaryBtn;
+}
+
